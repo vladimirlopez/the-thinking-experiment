@@ -11,27 +11,27 @@
     "href": "index.html",
     "title": "the-thinking-experiment",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 8, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nThe Thinking Experiment begins\n\n\n\nnews\n\neducation\n\nphysics\n\nk-12\n\nscience\n\nmathematics\n\nprogramming\n\ntechnology\n\nphilosophy\n\nhistory\n\nculture\n\n\n\n\n\n\n\n\n\nJul 5, 2025\n\n\nVladimir Lopez\n\n\n\n\n\nNo matching items"
+    "text": "How Do I Create a Blog? (The Meta First Post)\n\n\n\nblogging\n\nquarto\n\ngithub\n\nmeta\n\nsetup\n\ntutorial\n\n\n\n\n\n\n\n\n\nJul 8, 2025\n\n\nVladimir Lopez\n\n\n\n\n\n\n\n\n\n\n\n\nThe Thinking Experiment begins\n\n\n\nnews\n\neducation\n\nphysics\n\nk-12\n\nscience\n\nmathematics\n\nprogramming\n\ntechnology\n\nphilosophy\n\nhistory\n\nculture\n\n\n\n\n\n\n\n\n\nJul 5, 2025\n\n\nVladimir Lopez\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About me",
     "section": "",
     "text": "Vladimir G. López at CERN\n\n\nI’m Vladimir G. López, originally from Asturias, Spain, and now based in Houston, Texas. I’m a bilingual STEM educator with a Master’s degree in Physics and extensive experience teaching high school Math, Science, and Engineering.\nMy career began in the Houston Independent School District, where I taught at Madison High School and East Early College High School. I was honored as the KBR Science Teacher of the Year (2014) and HISD Secondary Teacher of the Year (2015). I’ve also served as an Adjunct Physics Professor at Houston Community College.\nToday, I teach at The Kinkaid School, where I’m also the robotics coach. During the summer, I direct the EMSI (Engineering, Math & Science Institute) program.\nI’m a firm believer in learning by doing, so I design hands-on physics lessons, lead robotics teams, and develop online curricula infused with instructional technology and emerging AI tools.\n\n\n👓 A bit about me personally\n\nI love reading—and I read everything from philosophy to science to fiction.\nMy go-to tunes? Jazz, blues, and classic rock.\nI play chess (yes, I do wear glasses and am a total nerd—it’s practically cliché!).\n\n\n\n\n⚗️ What this blog is\nThe Thinking Experiment is where I share: - My experiments using AI in teaching and learning. - Reflections on education, science, literature, and philosophy. - Moments of curiosity, failure, and growth as an educator and human.\nThanks for joining me on this journey!"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/how-to-create-blog/index.html",
+    "href": "posts/how-to-create-blog/index.html",
+    "title": "How Do I Create a Blog? (The Meta First Post)",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "📘 Welcome to my blog — a space where I’ll be exploring ideas about teaching, physics, coding, and AI.\nFittingly, my first post is about the blog itself. Why? Because the act of creating it turned out to be an interesting project in its own right. It started with a simple question:\nHow do I create a blog that lets me write about code and science, and format things like equations and code blocks easily?\nI wanted more than just another Medium clone. I needed a platform where I could:\nSo I asked ChatGPT.\nAfter some back and forth, the best setup for my needs turned out to be:\nI’m already using GitHub Copilot through my education account, and since I’m also teaching a course on vibe-coding — a term I coined for a playful, expressive approach to learning to code — the whole project felt on-theme. (More on vibe-coding soon.)"
   },
   {
-    "objectID": "about.html#about-me",
-    "href": "about.html#about-me",
-    "title": "About",
-    "section": "",
-    "text": "Vladimir G. López at CERN\n\n\nI’m Vladimir G. López, originally from Asturias, Spain, and now based in Houston, Texas. I’m a bilingual STEM educator with a Master’s degree in Physics and extensive experience teaching high school Math, Science, and Engineering.\nMy career began in the Houston Independent School District, where I taught at Madison High School and East Early College High School. I was honored as the KBR Science Teacher of the Year (2014) and HISD Secondary Teacher of the Year (2015). I’ve also served as an Adjunct Physics Professor at Houston Community College.\nToday, I teach at The Kinkaid School, where I’m also the robotics coach. During the summer, I direct the EMSI (Engineering, Math & Science Institute) program.\nI’m a firm believer in learning by doing, so I design hands-on physics lessons, lead robotics teams, and develop online curricula infused with instructional technology and emerging AI tools.\n\n\n\n\nI love reading—and I read everything from philosophy to science to fiction.\nMy go-to tunes? Jazz, blues, and classic rock.\nI play chess (yes, I do wear glasses and am a total nerd—it’s practically cliché!).\n\n\n\n\n\nThe Thinking Experiment is where I share: - My experiments using AI in teaching and learning. - Reflections on education, science, literature, and philosophy. - Moments of curiosity, failure, and growth as an educator and human.\nThanks for joining me on this journey!"
+    "objectID": "posts/how-to-create-blog/index.html#how-i-set-up-this-blog",
+    "href": "posts/how-to-create-blog/index.html#how-i-set-up-this-blog",
+    "title": "How Do I Create a Blog? (The Meta First Post)",
+    "section": "🔧 How I Set Up This Blog",
+    "text": "🔧 How I Set Up This Blog\nHere’s a quick rundown of the steps I followed to get everything working:\n\nInstall Quarto\nI downloaded and installed Quarto. It’s an open-source scientific and technical publishing system that integrates beautifully with VS Code.\n\n\nCreate a new Quarto project\nIn VS Code, I used the Quarto extension to create a new website project:\nquarto create-project myblog --type website\n\n\nCustomize the _quarto.yml file\nThis config file controls the site layout, title, theme, navigation, and more. I gave my site a name, chose a theme, and added a navbar.\n\n\nWrite my content in Markdown\nEach post is just a .qmd or .md file in the posts/ folder. I can include math, code blocks, and even executable code if I want.\n\n\nPreview the site locally\nI used:\nquarto preview\nThis lets me see changes live in my browser as I edit.\n\n\nPush to GitHub\nI initialized a Git repo, committed everything, and pushed it to a new GitHub repository.\n\n\nEnable GitHub Pages\nIn the GitHub repo settings, I enabled Pages and selected the main branch and /docs folder as the source.\n\n\nPublish with Quarto\nI rendered the site into the docs folder using:\nquarto render\nNow the site is live at: 👉 https://vladimirlopez.github.io/the-thinking-experiment\n\nThat’s it for now. This blog will be a thinking space — a lab notebook, a course companion, and maybe a bit of a philosophical experiment. Thanks for reading the very first post.\nNext up: What is vibe-coding, really?"
   }
 ]

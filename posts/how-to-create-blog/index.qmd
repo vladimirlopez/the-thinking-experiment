@@ -1,0 +1,80 @@
+---
+title: "How Do I Create a Blog? (The Meta First Post)"
+author: "Vladimir Lopez"
+date: "2025-07-08"
+categories: [blogging, quarto, github, meta, setup, tutorial]
+---
+
+📘 Welcome to my blog — a space where I'll be exploring ideas about teaching, physics, coding, and AI.
+
+Fittingly, my first post is about the blog itself. Why? Because the act of creating it turned out to be an interesting project in its own right. It started with a simple question:
+
+**How do I create a blog that lets me write about code and science, and format things like equations and code blocks easily?**
+
+I wanted more than just another Medium clone. I needed a platform where I could:
+
+-   Write in Markdown
+-   Render LaTeX-style math
+-   Share cleanly formatted code
+-   Work locally with Git and VS Code
+-   Keep full control over the site and its content
+
+So I asked ChatGPT.
+
+After some back and forth, the best setup for my needs turned out to be:
+
+-   **GitHub Pages** for hosting
+-   **VS Code** for writing and editing
+-   **Quarto** as the engine for generating the site
+
+I'm already using GitHub Copilot through my education account, and since I'm also teaching a course on **vibe-coding** the whole project felt on-theme. (More on vibe-coding soon.)
+
+## 🔧 How I Set Up This Blog
+
+Here's a quick rundown of the steps I followed to get everything working:
+
+### Install Quarto
+
+I downloaded and installed Quarto. It's an open-source scientific and technical publishing system that integrates beautifully with VS Code.
+
+### Create a new Quarto project
+
+In the VS Code terminal, I used the Quarto extension to create a new website project:
+
+``` bash
+quarto create-project myblog --type website
+```
+
+### Create structure and posts
+
+Now comes the beauty of using Copilot Pro Agent: I just asked the agent to create the files, folders, modify the index.qmd, add my pictures, etc. Isntead of looking for the commands in google or asking chatgpt in a different window, I ask Copilot Agent in plain english. \### Preview the site locally I used:
+
+``` bash
+quarto preview
+```
+
+This lets me see changes live in my browser as I edit.
+
+### Push to GitHub
+
+I initialized a Git repo, committed everything, and pushed it to a new GitHub repository.
+
+### Enable GitHub Pages
+
+In the GitHub repo settings, I enabled Pages and selected the main branch and `/docs` folder as the source.
+
+### Publish with Quarto
+
+I rendered the site into the docs folder using:
+
+``` bash
+quarto render
+```
+
+Now the site is live at: 👉 https://vladimirlopez.github.io/the-thinking-experiment
+
+------------------------------------------------------------------------
+
+That's it for now. This blog will be a thinking space — a lab notebook, a course companion, and maybe a bit of a philosophical experiment. Thanks for reading the very first post.
+
+**Next up:** What is vibe-coding, really?
