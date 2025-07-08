@@ -1,0 +1,35 @@
+---
+title: About me
+format:
+  html:
+    toc: false
+---
+
+![Vladimir G. López at CERN](IMG_3088.jpg)
+
+I'm **Vladimir G. López**, originally from Asturias, Spain, and now based in Houston, Texas. I'm a bilingual STEM educator with a Master's degree in Physics and extensive experience teaching high school Math, Science, and Engineering.
+
+My career began in the Houston Independent School District, where I taught at Madison High School and East Early College High School. I was honored as the **KBR Science Teacher of the Year (2014)** and **[HISD Secondary Teacher of the Year (2015)](https://www.chron.com/neighborhood/bellaire/news/article/HISD-Secondary-Teacher-of-Year-Lopez-says-9708710.php)**. I've also served as an Adjunct Physics Professor at Houston Community College.
+
+Today, I teach at **The Kinkaid School**, where I'm also the robotics coach. During the summer, I direct the **EMSI (Engineering, Math & Science Institute)** program.
+
+I'm a firm believer in **learning by doing**, so I design hands-on physics lessons, lead robotics teams, and develop online curricula infused with instructional technology and emerging AI tools.
+
+---
+
+### 👓 A bit about me personally
+
+- I love reading—and I read everything from philosophy to science to fiction.
+- My go-to tunes? Jazz, blues, and classic rock.
+- I play chess (yes, I *do* wear glasses and am a total nerd—it's practically cliché!).
+
+---
+
+### ⚗️ What this blog is
+
+**The Thinking Experiment** is where I share:
+- My experiments using AI in teaching and learning.
+- Reflections on education, science, literature, and philosophy.
+- Moments of curiosity, failure, and growth as an educator and human.
+
+Thanks for joining me on this journey!

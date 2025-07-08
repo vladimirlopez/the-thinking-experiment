@@ -1,0 +1,18 @@
+---
+title: "The Thinking Experiment begins"
+author: "Vladimir Lopez"
+date: "2025-07-05"
+categories: [news, education, physics, k-12, science, mathematics, programming, technology, philosophy, history, culture]
+---
+
+I’m a physics teacher with broad interests and a deep curiosity for how we learn, how we teach, and how we make sense of the world.
+
+Over the years, I’ve taught high school Math, Science, and Engineering. Lately, I’ve been exploring how AI can support teaching, learning, and even thinking itself. I’m trying a lot of things — in the classroom, in code, in my own workflows — and this blog is a space to share what I discover.
+
+But this isn’t just about physics or AI.
+
+It’s about the bigger picture: how we grow as educators, how curiosity evolves over time, and how ideas from science, literature, philosophy, and everyday experience shape the way we see and explain the world.
+
+**The Thinking Experiment** is part lab notebook, part essay collection, part journal of the unexpected. I hope you’ll find something here that makes you think — or re-think — along the way.
+
+Let the experiment begin.
