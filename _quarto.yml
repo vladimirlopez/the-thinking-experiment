@@ -6,7 +6,10 @@ website:
   title: "The Thinking Experiment"
   navbar:
     right:
-      - about.qmd
+      - text: "Blog"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
       - icon: github
         href: https://github.com/vladimirlopez/the-thinking-experiment
       - icon: twitter
