@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "The Thinking Experiment begins",
-    "section": "",
-    "text": "I’m a physics teacher with broad interests and a deep curiosity for how we learn, how we teach, and how we make sense of the world.\nOver the years, I’ve taught high school Math, Science, and Engineering. Lately, I’ve been exploring how AI can support teaching, learning, and even thinking itself. I’m trying a lot of things — in the classroom, in code, in my own workflows — and this blog is a space to share what I discover.\nBut this isn’t just about physics or AI.\nIt’s about the bigger picture: how we grow as educators, how curiosity evolves over time, and how ideas from science, literature, philosophy, and everyday experience shape the way we see and explain the world.\nThe Thinking Experiment is part lab notebook, part essay collection, part journal of the unexpected. I hope you’ll find something here that makes you think — or re-think — along the way.\nLet the experiment begin."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "the-thinking-experiment",
-    "section": "",
-    "text": "How Do I Create a Blog? (The Meta First Post)\n\n\n\nblogging\n\nquarto\n\ngithub\n\nmeta\n\nsetup\n\ntutorial\n\n\n\n\n\n\n\n\n\nJul 8, 2025\n\n\nVladimir Lopez\n\n\n\n\n\n\n\n\n\n\n\n\nThe Thinking Experiment begins\n\n\n\nnews\n\neducation\n\nphysics\n\nk-12\n\nscience\n\nmathematics\n\nprogramming\n\ntechnology\n\nphilosophy\n\nhistory\n\nculture\n\n\n\n\n\n\n\n\n\nJul 5, 2025\n\n\nVladimir Lopez\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About me",
@@ -25,13 +11,27 @@
     "href": "posts/how-to-create-blog/index.html",
     "title": "How Do I Create a Blog? (The Meta First Post)",
     "section": "",
-    "text": "📘 Welcome to my blog — a space where I’ll be exploring ideas about teaching, physics, coding, and AI.\nFittingly, my first post is about the blog itself. Why? Because the act of creating it turned out to be an interesting project in its own right. It started with a simple question:\nHow do I create a blog that lets me write about code and science, and format things like equations and code blocks easily?\nI wanted more than just another Medium clone. I needed a platform where I could:\nSo I asked ChatGPT.\nAfter some back and forth, the best setup for my needs turned out to be:\nI’m already using GitHub Copilot through my education account, and since I’m also teaching a course on vibe-coding — a term I coined for a playful, expressive approach to learning to code — the whole project felt on-theme. (More on vibe-coding soon.)"
+    "text": "📘 Welcome to my blog — a space where I’ll be exploring ideas about teaching, physics, coding, and AI.\nFittingly, my first post is about the blog itself. Why? Because the act of creating it turned out to be an interesting project in its own right. It started with a simple question:\nHow do I create a blog that lets me write about code and science, and format things like equations and code blocks easily?\nI wanted more than just another Medium clone. I needed a platform where I could:\nSo I asked ChatGPT.\nAfter some back and forth, the best setup for my needs turned out to be:\nI’m already using GitHub Copilot through my education account, and since I’m also teaching a course on vibe-coding the whole project felt on-theme. (More on vibe-coding soon.)"
   },
   {
     "objectID": "posts/how-to-create-blog/index.html#how-i-set-up-this-blog",
     "href": "posts/how-to-create-blog/index.html#how-i-set-up-this-blog",
     "title": "How Do I Create a Blog? (The Meta First Post)",
     "section": "🔧 How I Set Up This Blog",
-    "text": "🔧 How I Set Up This Blog\nHere’s a quick rundown of the steps I followed to get everything working:\n\nInstall Quarto\nI downloaded and installed Quarto. It’s an open-source scientific and technical publishing system that integrates beautifully with VS Code.\n\n\nCreate a new Quarto project\nIn VS Code, I used the Quarto extension to create a new website project:\nquarto create-project myblog --type website\n\n\nCustomize the _quarto.yml file\nThis config file controls the site layout, title, theme, navigation, and more. I gave my site a name, chose a theme, and added a navbar.\n\n\nWrite my content in Markdown\nEach post is just a .qmd or .md file in the posts/ folder. I can include math, code blocks, and even executable code if I want.\n\n\nPreview the site locally\nI used:\nquarto preview\nThis lets me see changes live in my browser as I edit.\n\n\nPush to GitHub\nI initialized a Git repo, committed everything, and pushed it to a new GitHub repository.\n\n\nEnable GitHub Pages\nIn the GitHub repo settings, I enabled Pages and selected the main branch and /docs folder as the source.\n\n\nPublish with Quarto\nI rendered the site into the docs folder using:\nquarto render\nNow the site is live at: 👉 https://vladimirlopez.github.io/the-thinking-experiment\n\nThat’s it for now. This blog will be a thinking space — a lab notebook, a course companion, and maybe a bit of a philosophical experiment. Thanks for reading the very first post.\nNext up: What is vibe-coding, really?"
+    "text": "🔧 How I Set Up This Blog\nHere’s a quick rundown of the steps I followed to get everything working:\n\nInstall Quarto\nI downloaded and installed Quarto. It’s an open-source scientific and technical publishing system that integrates beautifully with VS Code.\n\n\nCreate a new Quarto project\nIn the VS Code terminal, I used the Quarto extension to create a new website project:\nquarto create-project myblog --type website\n\n\nCreate structure and posts\nNow comes the beauty of using Copilot Pro Agent: I just asked the agent to create the files, folders, modify the index.qmd, add my pictures, etc. Isntead of looking for the commands in google or asking chatgpt in a different window, I ask Copilot Agent in plain english. ### Preview the site locally I used:\nquarto preview\nThis lets me see changes live in my browser as I edit.\n\n\nPush to GitHub\nI initialized a Git repo, committed everything, and pushed it to a new GitHub repository.\n\n\nEnable GitHub Pages\nIn the GitHub repo settings, I enabled Pages and selected the main branch and /docs folder as the source.\n\n\nPublish with Quarto\nI rendered the site into the docs folder using:\nquarto render\nNow the site is live at: 👉 https://vladimirlopez.github.io/the-thinking-experiment\n\nThat’s it for now. This blog will be a thinking space — a lab notebook, a course companion, and maybe a bit of a philosophical experiment. Thanks for reading the very first post.\nNext up: What is vibe-coding, really?"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "The Thinking Experiment begins",
+    "section": "",
+    "text": "I’m a physics teacher with broad interests and a deep curiosity for how we learn, how we teach, and how we make sense of the world.\nOver the years, I’ve taught high school Math, Science, and Engineering. Lately, I’ve been exploring how AI can support teaching, learning, and even thinking itself. I’m trying a lot of things — in the classroom, in code, in my own workflows — and this blog is a space to share what I discover.\nBut this isn’t just about physics or AI.\nIt’s about the bigger picture: how we grow as educators, how curiosity evolves over time, and how ideas from science, literature, philosophy, and everyday experience shape the way we see and explain the world.\nThe Thinking Experiment is part lab notebook, part essay collection, part journal of the unexpected. I hope you’ll find something here that makes you think — or re-think — along the way.\nLet the experiment begin."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Thinking Experiment",
+    "section": "",
+    "text": "How Do I Create a Blog? (The Meta First Post)\n\n\n\n\n\n\nblogging\n\n\nquarto\n\n\ngithub\n\n\nmeta\n\n\nsetup\n\n\ntutorial\n\n\n\n\n\n\n\n\n\nJul 8, 2025\n\n\nVladimir Lopez\n\n\n\n\n\n\n\n\n\n\n\n\nThe Thinking Experiment begins\n\n\n\n\n\n\nnews\n\n\neducation\n\n\nphysics\n\n\nk-12\n\n\nscience\n\n\nmathematics\n\n\nprogramming\n\n\ntechnology\n\n\nphilosophy\n\n\nhistory\n\n\nculture\n\n\n\n\n\n\n\n\n\nJul 5, 2025\n\n\nVladimir Lopez\n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -4,6 +4,7 @@ project:
 
 website:
   title: "The Thinking Experiment"
+  site-url: https://vladimirlopez.github.io/the-thinking-experiment
   navbar:
     right:
       - text: "Blog"
