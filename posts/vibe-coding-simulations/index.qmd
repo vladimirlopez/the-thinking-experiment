@@ -1,0 +1,125 @@
+---
+title: "Vibe-Coding Physics Simulations: A Teacher's Journey"
+author: "Vladimir Lopez"
+date: "2025-07-16"
+categories: [physics, education, coding, AI, simulations]
+image: thumbnail.jpg
+---
+
+*This post shares insights from a paper submitted to The Physics Teacher. Please note that the information presented here is pending publication and subject to change based on the journal's review process. Sharing is in accordance with The Physics Teacher's online sharing guidelines.*
+
+# Vibe-Coding Physics Simulations: My Journey from Teacher to Creator
+
+As a physics teacher, I've always relied on online simulations to bring concepts to life. But let's be honest, even the best ones rarely fit perfectly with my unique teaching style, specific lesson goals, or the diverse needs of my students. For a long time, the solution felt like adapting my lessons to fit the available tools. Then, I discovered "vibe-coding"—a game-changer that empowered me to create my *own* simulations.
+
+You might be thinking, "Coding? I'm a teacher, not a developer!" And I get it. My own coding background, rooted in Fortran 77 and C from college, felt pretty irrelevant in today's world of Python and JavaScript. But here's the exciting part: the incredible advancements in generative AI (GenAI) have made it possible for educators like us to build interactive simulations using plain language and AI assistance. That's the essence of vibe-coding.
+
+The term "vibe-coding" was coined by OpenAI cofounder Andrej Karpathy in February 2025. It's all about using natural language to interact with an AI agent that then writes the code for you. In this post, I'm excited to share my personal journey using this method to build two simple online simulations, each tailored to the specific needs of my high school physics class. It was a challenging, yet incredibly engaging and fun process, and I believe it's a skill every educator can embrace.
+
+# Implementation
+
+My first attempt at vibe-coding wasn’t even a physics simulation. It was a simple roleplaying game chatbox designed to leverage my local LLM. This was back in 2024, when I was experimenting with ChatGPT and Claude. While those tools worked, I found the workflow tedious: too much copying and pasting, and limitations with context windows made the process difficult. Even though both platforms have since improved their support for coding, and there are plenty of new options, by that point I had already discovered a solution that works better for my needs.
+
+My current setup is built around a few tools that work seamlessly together:
+
+- Visual Studio Code (VS Code) as my coding environment
+- A GitHub Education account, which gives me access to GitHub Copilot Pro and its AI coding agents
+- GitHub repositories to keep my projects organized and synchronized across devices
+- GitHub Pages to host the finished simulations online, free and accessible to students
+
+The setup may seem complex at first, but once it’s installed, the workflow becomes straightforward: create a repository, open it in VS Code, and ask the Copilot agent to create a codespace and start generating code. (More technical steps are included in the appendix and described in detail on my blog)
+
+### Tangent Line Simulation
+
+Here's the Tangent Line Simulation. You can interact with it directly in this post!
+
+<iframe src="https://vladimirlopez.github.io/slope_tangents/" width="100%" height="600px" frameborder="0" allowfullscreen></iframe>
+
+My first classroom-oriented vibe-coding project was a simulation to help students explore the slope of tangent lines to a parabolic curve. In my high school physics class, we follow a modeling-based approach as closely as possible. During our unit on motion, students replicate Galileo’s classic ramp experiment by recording the positions of an accelerating object at regular time intervals. They plot position versus time, fit a quadratic curve to the data, and then estimate the object’s instantaneous velocity by finding the slope of tangent lines to the curve. For years, we used a software tool that allowed students to interpolate and visually analyze these tangents at any point along the fit. Unfortunately, that tool is no longer supported, and the replacement only allows slope analysis at the original data points, not in between. To solve this, I decided to vibe-code a simple online app that does exactly what the students needed: plot the data, fit a parabola, and allow interactive tangent-line analysis anywhere along the curve.
+
+To build the simulation, I created a public GitHub repository and opened it in Visual Studio Code. Using GitHub Copilot’s chat agent, I prompted it to set up the basic structure of the app and asked it to handle tasks like committing and pushing code to the repository. My initial prompt described the desired features in plain language:
+
+```
+Create an HTML5 web application using HTML, CSS, and JavaScript. The app
+should have the following features:
+• A table where users can input x and y values (minimum of 3 points required
+for a quadratic fit).
+• A button to plot the data and perform a quadratic regression (least squares
+fit).
+• A canvas (e.g., using Chart.js or plain HTML5 Canvas) to display:
+– The input data points.
+– The best-fit quadratic curve based on the input data.
+• An interactive slider or input box to select an x-value within the domain of
+the fitted parabola.
+• When an x-value is selected:
+2
+– Highlight the corresponding point on the quadratic curve.
+– Calculate and display the slope of the tangent line at that point.
+– Draw the tangent line on the graph.
+• Style the app with simple, responsive CSS for clarity and usability.
+Do not use any backend code. All functionality should be done client-side. Keep
+the code modular and well-commented. Use plain JavaScript unless a library like
+Chart.js or math.js makes things clearer.
+```
+
+Copilot responded by generating a complete file structure and a working first version of the app. While it was a strong starting point, it needed refinement. I continued the process by prompting Copilot with specific changes—such as simplifying the data table, adjusting the graph visuals, improving how the selected point was shown, and replacing the x-value slider with direct graph interaction. After a few iterations, I had a version that met my students’ needs. The final step was deploying the simulation using GitHub Pages. A full transcript of the interaction with Copilot, along with screenshots from different development stages, is available in the repository.
+
+### Electrostatics: Conduction and Induction Simulation
+
+Explore the Electrostatics Simulation below:
+
+<iframe src="https://vladimirlopez.github.io/chargingDemo/" width="100%" height="800px" frameborder="0" allowfullscreen></iframe>
+
+After completing the tangent-line simulation, I applied the same vibe-coding workflow to build a second classroom tool focused on electrostatics. This one was particularly challenging because my students often struggled to visualize how electrons move during charging by conduction and induction. While I used a traditional setup with a hanging pith ball and charged rods, the demonstration felt too passive and didn’t clearly show the direction of charge flow. It was surprisingly difficult to get the correct flow of charges in the simulation, requiring a lot of back-and-forth with the AI.
+
+To help the AI, I used a document with my physics notes and lesson explanations, which I kept in the same folder as the repository while vibe-coding in VS Code. This "grounding" of the AI with accurate content was crucial. These same materials were later integrated as on-screen guides within the simulation. With this structure in place, I prompted Copilot to generate a tool where students could charge a rod, bring it close to pith balls, and observe the induced and transferred charge effects.
+
+The result was a more active, visual learning environment that better matched the conceptual goals for the lesson.
+
+# Reflections
+
+Since I began experimenting with vibe-coding in 2024, the tools have improved dramatically. The introduction of agent-based functionality in GitHub Copilot has been a major step forward. The “agent” can now create files, write code, and even execute and analyze terminal commands. The language models themselves are now far more capable. For example, Claude Sonnet 4 can generate nearly functional simulations after a single, well-structured prompt. What once required a dozen back-and-forth iterations can now be accomplished in just a few. These developments have made the process faster and more accessible, though not without its challenges.
+
+Even with better tools, the process can still be frustrating. There are times when the AI doesn’t implement requested changes correctly or repeats earlier mistakes. For instance, getting the layout right for the tangent line simulation took quite a few interactions. One workaround I’ve found effective is taking screenshots of the simulation and sharing them with the Copilot agent. This approach only works with multimodal languages like Claude, Gemini, or GPT 4.1, but significantly improves the feedback loop. That said, human oversight remains essential, especially to ensure that the physics is correct. Grounding AI with the lesson documents and clearly defined concepts made a noticeable difference in accuracy and relevance.
+
+Despite these challenges, the overall process was incredibly engaging and, dare I say, fun! I deliberately avoided editing the code by hand, staying true to the spirit of vibe-coding: building functional tools through language-based interaction. This approach helped keep the process accessible and replicable for other educators. Students’ response was encouraging, particularly for the electrostatics simulation, which helped them better visualize the electrostatic charging and the flow of electrons. The tangent-line simulation served more as a digital tool. Both gained some attention in class and gave me a bit of ‘street cred’ for building custom tools tailored to our lessons.
+
+# Advice
+
+Based on my experience building these simulations, I’ve identified a few suggestions for teachers interested in trying vibe-coding in their classrooms. These tips are meant to lower the barrier to entry and help others avoid some of the early frustrations I encountered.
+
+There are many platforms for vibe-coding, but the combination of **GitHub Copilot and Visual Studio Code** stands out for its flexibility and power—especially since it’s free for educators through GitHub’s education program. VS Code supports a wide range of languages, including Python and JavaScript, making it suitable for everything from simple sketches to more complex simulations. Just as important, this setup models real-world coding workflows, with version control and clean, shareable repositories.
+
+**Patience is essential.** Code rarely works on the first try—not even for professionals. Adopting a mindset of iterative development and feedback loops is key. Vibe-coding is not about getting the perfect simulation immediately, but about gradually shaping it through collaboration with the AI.
+
+Above all, **start with problems you know well.** When you build tools grounded in your own teaching expertise, the AI’s output becomes more relevant, and your feedback to the agent more accurate. The human-in-the-loop aspect isn’t optional—it’s what ensures the simulation works, both technically and pedagogically.
+
+# Conclusion
+
+AI is already changing how teachers work by helping with lesson planning, grading, and creating instructional materials. But for teachers willing to go a step further, vibe-coding offers something more: the ability to design custom tools that match their teaching style and their students’ needs. It empowers educators to become creators, not just consumers, of digital content.
+
+For teachers with even a little coding background, no matter how out-of-date, vibe-coding offers a way to reconnect with that knowledge and put it to work in a new, meaningful context. It is useful, it is creative, and it is surprisingly fun (once that you overcome the frustration of not-working iterations of the code). Unlike using AI as a chat assistant or a document writer, vibe-coding is an active, hands-on process that blends pedagogy, problem solving, and personal invention. For me, it has opened a door to building the kinds of tools I always wished I had. I believe other teachers can do the same.
+
+# References
+
+1. A. Karpathy, “Prompt engineering is the new software engineering,” X (formerly Twitter), https://twitter.com/karpathy/status/1753124588808980917 (Feb. 2, 2025).
+
+**Appendix A: GitHub and Setup Resources**
+
+- [GitHub Education](https://education.github.com): Apply for a free teacher or student account, which includes Copilot Pro access.
+- [GitHub Copilot Documentation](https://docs.github.com/en/copilot): Learn how to use Copilot and Copilot Chat inside Visual Studio Code.
+- [GitHub Pages](https://pages.github.com): Free static site hosting for simulations and web apps.
+- [Hello World: GitHub Quickstart](https://docs.github.com/en/get-started/quickstart/hello-world): Step-by-step guide to creating and publishing your first repository.
+- [GitHub Docs](https://docs.github.com/en): Official documentation homepage.
+
+**Appendix B: Simulation Links**
+
+**1. Tangent Line Simulation**
+
+- Live site: [https://vladimirlopez.github.io/slope_tangents/](https://vladimirlopez.github.io/slope_tangents/)
+- Source code: [https://github.com/vladimirlopez/tangent-line-sim](https://github.com/vladimirlopez/tangent-line-sim)
+
+**2. Electrostatics: Conduction and Induction**
+
+- Live site: [https://vladimirlopez.github.io/chargingDemo/](https://vladimirlopez.github.io/chargingDemo/)
+- Source code: [https://github.com/vladimirlopez/electrostatics-sim](https://github.com/vladimirlopez/electrostatics-sim)

@@ -17,9 +17,7 @@ website:
         href: https://twitter.com
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: darkly
     css: styles.css
 
 
