@@ -1,0 +1,92 @@
+---
+title: "Feel Like a Hacker: How Gemini CLI Became My AI Sidekick"
+author: "Vladimir Lopez"
+date: "2025-07-18"
+categories: [AI, CLI, Gemini, Tech]
+image: "thumbnail.png"
+draft: true
+---
+
+### The Hollywood Hacker Fantasy
+
+We’ve all seen it in the movies. The lone genius in a dark room, fingers flying across the keyboard, making impossible things happen with just a few cryptic commands in a terminal. It’s the ultimate power fantasy. But what if I told you that you could get a taste of that power, without needing to be a cybersecurity expert or a character in *Mr. Robot*?
+
+Meet Gemini CLI, the tool that has turned my terminal from an intimidating black box into my personal AI sidekick.
+
+![The Gemini CLI welcome screen.](thumbnail.png)
+
+### So, What Exactly is Gemini CLI?
+
+CLI stands for Command-Line Interface, which is the technical term for a terminal. In simple terms, Gemini CLI is a way to chat with Google's powerful Gemini models directly from that terminal window.
+
+But this isn't just about asking questions. Because it’s in your terminal, Gemini CLI can do things a web UI can't. It can read your files, run commands, and interact with your computer's operating system. It’s the difference between having a conversation with a smart person and having that smart person sitting next to you, ready to help you with your work.
+
+### Why Go Back to the Terminal?
+
+In a world of slick graphical interfaces, why would anyone choose to work in a text-based terminal? For me, it comes down to two things: **speed and power.**
+
+Typing is fast. Describing what you want is intuitive. When you combine that with the ability to execute shell commands, you create a workflow that is incredibly efficient. It’s a direct line from your brain to the computer's core, with a super-intelligent AI acting as the translator.
+
+### Getting Started with Gemini CLI
+
+Ready to give it a try? The setup is surprisingly simple.
+
+First, you’ll need an API key from Google AI Studio.
+
+1.  Navigate to [Google AI Studio](https://aistudio.google.com/).
+2.  Click on **"Get API key"** and create one in a new or existing project.
+3.  Copy the key and keep it handy.
+
+Now, open your terminal and use the command for your operating system:
+
+**macOS (via Homebrew)**
+```bash
+brew install gemini-cli
+gemini auth <YOUR_API_KEY>
+```
+
+**Linux**
+```bash
+bash <(curl -s https://raw.githubusercontent.com/google/gemini-cli/main/tools/install.sh)
+gemini auth <YOUR_API_KEY>
+```
+
+**Windows (via Scoop)**
+```bash
+scoop bucket add gemini-cli https://github.com/google/gemini-cli.git
+scoop install gemini-cli
+gemini auth <YOUR_API_KEY>
+```
+
+And that's it! You're ready to go.
+
+### How It Changed My Workflow
+
+I’m not exaggerating when I say Gemini CLI has become my go-to tool for all sorts of tasks. Here are a few real-world examples.
+
+> **A Quick Word of Warning:** Giving an AI the ability to run commands on your computer is powerful, but requires caution. Always read and understand the commands Gemini suggests before you approve them.
+
+#### From Terminal Newbie to Power User
+I can handle basic commands like `ls` and `cd`, but I’m the first to admit I can’t remember the arcane syntax for more complex tasks. The other day, I needed to find all files larger than 100MB in a messy downloads folder and move them. Instead of fumbling through web search results, I just asked Gemini: *"Find all files over 100MB in this directory and move them to a new folder called 'large-files'."* It generated the command, explained what each part did, and executed it for me.
+
+#### Taming My Digital Brain
+My Obsidian vault for personal notes was a disaster. It had grown like G.R.R. Martin's manuscript for "The Winds of Winter": vast, chaotic, and with no end in sight. I asked Gemini to act as my personal librarian. It analyzed the folder structure, suggested a tagging system based on the content, and helped me create Maps of Content (MOCs) to link related ideas. It was a game-changer for my personal knowledge management.
+
+#### Vibe-Coding and Blogging
+As a developer, I now use Gemini CLI as a coding partner. It can analyze a GitHub repository, help me write new features, and even draft commit messages in the style of the project.
+
+It’s also become essential to my blogging workflow. This very blog is built with Quarto and GitHub, a process I detailed in a [previous post](./../how-to-create-blog/). Now, instead of manually running Quarto commands to build and preview my site, I just tell Gemini what I want to do. It not only runs the commands but also helps me learn them by showing me exactly what it's doing.
+
+### The Big Idea: Gemini CLI as a Ready-Made Agent
+The tech world is buzzing with the concept of "AI agents." While Gemini CLI may not be a fully autonomous agent just yet, I use it as one. It’s a tool that I can direct with plain English to carry out complex, multi-step tasks. It feels less like using a tool and more like having a conversation with my computer.
+
+It’s a glimpse of the future, and it’s available today.
+
+### Need a Hand?
+If you get stuck, the official documentation is great. But you can also get help right from the source:
+```bash
+gemini --help
+```
+This command lists everything you can do with the tool. I’m still exploring its more advanced features, like its built-in tools and the Multimodal Co-pilot (MCP). I’ll be sure to write about them once I’ve had more time to experiment.
+
+Happy hacking!

@@ -5,6 +5,7 @@ project:
 website:
   title: "The Thinking Experiment"
   site-url: https://vladimirlopez.github.io/the-thinking-experiment
+  google-analytics: "G-JBQ9ZQLYSX"
   navbar:
     right:
       - text: "Blog"
@@ -15,6 +16,7 @@ website:
         href: https://github.com/vladimirlopez/the-thinking-experiment
       - icon: twitter
         href: https://twitter.com
+
 format:
   html:
     theme: darkly
