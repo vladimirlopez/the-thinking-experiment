@@ -6,9 +6,15 @@ description: "Discovering the power of command-line AI tools. How Gemini CLI tra
 categories: [AI, CLI, Gemini, Tech]
 image: "thumbnail.png"
 draft: true
+open-graph:
+  title: "Feel Like a Hacker: How Gemini CLI Became My AI Sidekick"
+  description: "Discovering the power of command-line AI tools. How Gemini CLI transformed my workflow from GUI clicking to terminal-based productivity."
+  image: "thumbnail.png"
+twitter-card:
+  title: "Feel Like a Hacker: How Gemini CLI Became My AI Sidekick"
+  description: "Discovering the power of command-line AI tools. How Gemini CLI transformed my workflow from GUI clicking to terminal-based productivity."
+  image: "thumbnail.png"
 ---
-
-<span class="badge badge-outline-primary">AI</span> <span class="badge badge-outline-primary">CLI</span> <span class="badge badge-outline-primary">Gemini</span> <span class="badge badge-outline-primary">Tech</span>
 
 ### The Hollywood Hacker Fantasy
 

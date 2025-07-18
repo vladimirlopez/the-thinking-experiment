@@ -6,6 +6,7 @@ website:
   title: "The Thinking Experiment"
   site-url: https://vladimirlopez.github.io/the-thinking-experiment
   google-analytics: "G-JBQ9ZQLYSX"
+  favicon: assets/favicon.png
   navbar:
     search: true
     right:
@@ -34,6 +35,15 @@ format:
     toc: true
     toc-location: right
     reading-time: true
+    include-in-header:
+      - text: |
+          <meta property="og:site_name" content="The Thinking Experiment">
+          <meta property="og:type" content="website">
+          <meta name="twitter:card" content="summary_large_image">
+          <meta name="twitter:creator" content="@vladimirlopez">
+    include-after-body: _includes/comments.html
+    open-graph: true
+    twitter-card: true
 
 
 

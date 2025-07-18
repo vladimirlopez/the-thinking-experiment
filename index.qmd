@@ -4,12 +4,16 @@ listing:
   contents: posts
   sort: "date desc"
   type: grid
-  categories: false
+  categories: true
   sort-ui: false
   filter-ui: false
-  fields: [image, title, description, date]
+  fields: [image, title, description, date, categories]
 page-layout: full
-title-block-banner: true
+title-block-banner: false
 ---
+
+<div class="hero-banner">
+  <img src="assets/tte-hero-banner.png" alt="The Thinking Experiment" class="hero-image">
+</div>
 
 
