@@ -2,6 +2,7 @@
 title: "Vibe-Coding Physics Simulations: A Teacher's Journey"
 author: "Vladimir Lopez"
 date: "2025-07-16"
+description: "How I used AI-assisted 'vibe-coding' to create custom physics simulations for my high school classroom, from tangent line analysis to electrostatics demonstrations."
 categories: [physics, education, coding, AI, simulations]
 image: thumbnail.jpg
 ---

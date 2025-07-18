@@ -7,11 +7,20 @@ website:
   site-url: https://vladimirlopez.github.io/the-thinking-experiment
   google-analytics: "G-JBQ9ZQLYSX"
   navbar:
+    search: true
     right:
       - text: "Blog"
         href: index.qmd
       - text: "About"
         href: about.qmd
+      - text: "Topics"
+        menu:
+          - text: "Physics"
+            href: "#"
+          - text: "AI in Teaching" 
+            href: "#"
+          - text: "Coding Workflows"
+            href: "#"
       - icon: github
         href: https://github.com/vladimirlopez/the-thinking-experiment
       - icon: twitter
@@ -19,8 +28,11 @@ website:
 
 format:
   html:
-    theme: darkly
-    css: styles.css
+    theme: 
+      - darkly
+      - styles.scss
+    toc: true
+    toc-location: right
 
 
 

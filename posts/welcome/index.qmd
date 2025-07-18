@@ -2,7 +2,9 @@
 title: "The Thinking Experiment begins"
 author: "Vladimir Lopez"
 date: "2025-07-05"
+description: "Welcome to my exploration of teaching, learning, and discovery. A physics teacher's journey into AI, coding, and reimagining education."
 categories: [news, education, physics, k-12, science, mathematics, programming, technology, philosophy, history, culture]
+image: thumbnail.jpg
 ---
 
 I’m a physics teacher with broad interests and a deep curiosity for how we learn, how we teach, and how we make sense of the world.
