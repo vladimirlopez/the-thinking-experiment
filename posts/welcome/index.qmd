@@ -7,6 +7,16 @@ categories: [news, education, physics, k-12, science, mathematics, programming, 
 image: thumbnail.jpg
 ---
 
+<span class="badge badge-outline-primary">news</span> <span class="badge badge-outline-primary">education</span> <span class="badge badge-outline-primary">physics</span> <span class="badge badge-outline-primary">k-12</span> <span class="badge badge-outline-primary">science</span> <span class="badge badge-outline-primary">mathematics</span> <span class="badge badge-outline-primary">programming</span> <span class="badge badge-outline-primary">technology</span> <span class="badge badge-outline-primary">philosophy</span> <span class="badge badge-outline-primary">history</span> <span class="badge badge-outline-primary">culture</span>
+
+I'm a physics teacher with broad interests and a deep curiosity for how we learn, how we teach, and how we make sense of the world. "The Thinking Experiment begins"
+author: "Vladimir Lopez"
+date: "2025-07-05"
+description: "Welcome to my exploration of teaching, learning, and discovery. A physics teacher's journey into AI, coding, and reimagining education."
+categories: [news, education, physics, k-12, science, mathematics, programming, technology, philosophy, history, culture]
+image: thumbnail.jpg
+---
+
 I’m a physics teacher with broad interests and a deep curiosity for how we learn, how we teach, and how we make sense of the world.
 
 Over the years, I’ve taught high school Math, Science, and Engineering. Lately, I’ve been exploring how AI can support teaching, learning, and even thinking itself. I’m trying a lot of things — in the classroom, in code, in my own workflows — and this blog is a space to share what I discover.

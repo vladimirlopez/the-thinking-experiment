@@ -8,6 +8,8 @@ image: "thumbnail.png"
 draft: true
 ---
 
+<span class="badge badge-outline-primary">AI</span> <span class="badge badge-outline-primary">CLI</span> <span class="badge badge-outline-primary">Gemini</span> <span class="badge badge-outline-primary">Tech</span>
+
 ### The Hollywood Hacker Fantasy
 
 We’ve all seen it in the movies. The lone genius in a dark room, fingers flying across the keyboard, making impossible things happen with just a few cryptic commands in a terminal. It’s the ultimate power fantasy. But what if I told you that you could get a taste of that power, without needing to be a cybersecurity expert or a character in *Mr. Robot*?

@@ -6,6 +6,8 @@ description: "The story behind creating this blog with Quarto and GitHub Pages. 
 categories: [blogging, quarto, github, meta, setup, tutorial]
 ---
 
+<span class="badge badge-outline-primary">blogging</span> <span class="badge badge-outline-primary">quarto</span> <span class="badge badge-outline-primary">github</span> <span class="badge badge-outline-primary">meta</span> <span class="badge badge-outline-primary">setup</span> <span class="badge badge-outline-primary">tutorial</span>
+
 📘 Welcome to my blog — a space where I'll be exploring ideas about teaching, physics, coding, and AI.
 
 Fittingly, my first post is about the blog itself. Why? Because the act of creating it turned out to be an interesting project in its own right. It started with a simple question:

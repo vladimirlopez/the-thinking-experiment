@@ -7,6 +7,8 @@ categories: [physics, education, coding, AI, simulations]
 image: thumbnail.jpg
 ---
 
+<span class="badge badge-outline-primary">physics</span> <span class="badge badge-outline-primary">education</span> <span class="badge badge-outline-primary">coding</span> <span class="badge badge-outline-primary">AI</span> <span class="badge badge-outline-primary">simulations</span>
+
 *This post shares insights from a paper submitted to The Physics Teacher. Please note that the information presented here is pending publication and subject to change based on the journal's review process. Sharing is in accordance with The Physics Teacher's online sharing guidelines.*
 
 # Vibe-Coding Physics Simulations: My Journey from Teacher to Creator

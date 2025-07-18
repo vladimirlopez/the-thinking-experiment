@@ -33,6 +33,7 @@ format:
       - styles.scss
     toc: true
     toc-location: right
+    reading-time: true
 
 
 
