@@ -5,7 +5,7 @@ date: "2025-07-18"
 description: "Discovering the power of command-line AI tools. How Gemini CLI transformed my workflow from GUI clicking to terminal-based productivity."
 categories: [AI, CLI, Gemini, Tech]
 image: "thumbnail.png"
-draft: true
+draft: false
 open-graph:
   title: "Feel Like a Hacker: How Gemini CLI Became My AI Sidekick"
   description: "Discovering the power of command-line AI tools. How Gemini CLI transformed my workflow from GUI clicking to terminal-based productivity."
