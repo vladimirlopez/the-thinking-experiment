@@ -4,15 +4,15 @@ author: "Vladimir Lopez"
 date: "2025-07-16"
 description: "How I used AI-assisted 'vibe-coding' to create custom physics simulations for my high school classroom, from tangent line analysis to electrostatics demonstrations."
 categories: [physics, education, coding, AI, simulations]
-image: https://vladimirlopez.github.io/the-thinking-experiment/posts/vibe-coding-simulations/thumbnail.jpg
+image: thumbnail.jpg
 open-graph:
   title: "Vibe-Coding Physics Simulations: A Teacher's Journey"
   description: "How I used AI-assisted 'vibe-coding' to create custom physics simulations for my high school classroom, from tangent line analysis to electrostatics demonstrations."
-  image: https://vladimirlopez.github.io/the-thinking-experiment/posts/vibe-coding-simulations/thumbnail.jpg
+  image: thumbnail.jpg
 twitter-card:
   title: "Vibe-Coding Physics Simulations: A Teacher's Journey"
   description: "How I used AI-assisted 'vibe-coding' to create custom physics simulations for my high school classroom, from tangent line analysis to electrostatics demonstrations."
-  image: https://vladimirlopez.github.io/the-thinking-experiment/posts/vibe-coding-simulations/thumbnail.jpg
+  image: thumbnail.jpg
 ---
 
 *This post shares insights from a paper submitted to The Physics Teacher. Please note that the information presented here is pending publication and subject to change based on the journal's review process. Sharing is in accordance with The Physics Teacher's online sharing guidelines.*

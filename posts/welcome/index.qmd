@@ -4,15 +4,15 @@ author: "Vladimir Lopez"
 date: "2025-07-05"
 description: "Welcome to my exploration of teaching, learning, and discovery. A physics teacher's journey into AI, coding, and reimagining education."
 categories: [news, education, physics, k-12, science, mathematics, programming, technology, philosophy, history, culture]
-image: https://vladimirlopez.github.io/the-thinking-experiment/assets/tte-thumb-teaching.png
+image: ../../assets/tte-thumb-teaching.png
 open-graph:
   title: "The Thinking Experiment begins"
   description: "Welcome to my exploration of teaching, learning, and discovery. A physics teacher's journey into AI, coding, and reimagining education."
-  image: https://vladimirlopez.github.io/the-thinking-experiment/assets/tte-thumb-teaching.png
+  image: ../../assets/tte-thumb-teaching.png
 twitter-card:
   title: "The Thinking Experiment begins"
   description: "Welcome to my exploration of teaching, learning, and discovery. A physics teacher's journey into AI, coding, and reimagining education."
-  image: https://vladimirlopez.github.io/the-thinking-experiment/assets/tte-thumb-teaching.png
+  image: ../../assets/tte-thumb-teaching.png
 ---
 
 I'm a physics teacher with broad interests and a deep curiosity for how we learn, how we teach, and how we make sense of the world.
