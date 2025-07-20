@@ -9,11 +9,11 @@ draft: true
 open-graph:
   title: "Feel Like a Hacker: How Gemini CLI Became My AI Sidekick"
   description: "Discovering the power of command-line AI tools. How Gemini CLI transformed my workflow from GUI clicking to terminal-based productivity."
-  image: "thumbnail.png"
+  image: "https://vladimirlopez.github.io/the-thinking-experiment/posts/gemini-cli/thumbnail.png"
 twitter-card:
   title: "Feel Like a Hacker: How Gemini CLI Became My AI Sidekick"
   description: "Discovering the power of command-line AI tools. How Gemini CLI transformed my workflow from GUI clicking to terminal-based productivity."
-  image: "thumbnail.png"
+  image: "https://vladimirlopez.github.io/the-thinking-experiment/posts/gemini-cli/thumbnail.png"
 ---
 
 ### The Hollywood Hacker Fantasy

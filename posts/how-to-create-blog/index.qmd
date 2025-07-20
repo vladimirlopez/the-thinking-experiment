@@ -4,15 +4,15 @@ author: "Vladimir Lopez"
 date: "2025-07-08"
 description: "The story behind creating this blog with Quarto and GitHub Pages. A step-by-step journey from idea to implementation."
 categories: [blogging, quarto, github, meta, setup, tutorial]
-image: /assets/tte-thumb-ai.png
+image: https://vladimirlopez.github.io/the-thinking-experiment/assets/tte-thumb-ai.png
 open-graph:
   title: "How Do I Create a Blog? (The Meta First Post)"
   description: "The story behind creating this blog with Quarto and GitHub Pages. A step-by-step journey from idea to implementation."
-  image: /assets/tte-thumb-ai.png
+  image: https://vladimirlopez.github.io/the-thinking-experiment/assets/tte-thumb-ai.png
 twitter-card:
   title: "How Do I Create a Blog? (The Meta First Post)"
   description: "The story behind creating this blog with Quarto and GitHub Pages. A step-by-step journey from idea to implementation."
-  image: /assets/tte-thumb-ai.png
+  image: https://vladimirlopez.github.io/the-thinking-experiment/assets/tte-thumb-ai.png
 ---
 
 📘 Welcome to my blog — a space where I'll be exploring ideas about teaching, physics, coding, and AI.

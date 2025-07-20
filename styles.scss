@@ -385,3 +385,9 @@ iframe {
     padding-top: 2rem;
     border-top: 1px solid $border-color;
 }
+
+// LinkedIn badge iframe fix
+.LI-profile-badge iframe {
+    border: none !important;
+    margin: 0 !important;
+}

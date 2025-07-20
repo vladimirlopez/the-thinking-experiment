@@ -32,4 +32,7 @@ I'm a firm believer in **learning by doing**, so I design hands-on physics lesso
 - Reflections on education, science, literature, and philosophy.
 - Moments of curiosity, failure, and growth as an educator and human.
 
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="vladimir-lopez-837885342" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/vladimir-lopez-837885342?trk=profile-badge">Vladimir Lopez</a></div>
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
 Thanks for joining me on this journey!
