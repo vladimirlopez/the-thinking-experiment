@@ -57,7 +57,9 @@ quarto create-project myblog --type website
 
 ### Create structure and posts
 
-Now comes the beauty of using Copilot Pro Agent: I just asked the agent to create the files, folders, modify the index.qmd, add my pictures, etc. Isntead of looking for the commands in google or asking chatgpt in a different window, I ask Copilot Agent in plain english. \### Preview the site locally I used:
+Now comes the beauty of using Copilot Pro Agent: I just asked the agent to create the files, folders, modify the index.qmd, add my pictures, etc. Isntead of looking for the commands in google or asking chatgpt in a different window, I ask Copilot Agent in plain english. 
+
+### Preview the site locally I used:
 
 ``` bash
 quarto preview

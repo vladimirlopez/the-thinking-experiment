@@ -1,0 +1,168 @@
+---
+title: "Getting Started with Continue and Ollama for Local AI Development"
+description: "Learn how to set up Continue with Ollama to use local AI models for coding assistance in VS Code"
+author: "Vladimir Lopez"
+date: "2025-07-13"
+categories: [AI, Development, Tools, Ollama, Continue]
+image: "thumbnail.jpg"
+draft: false
+---
+
+## Introduction
+
+Have you ever wanted to use AI coding assistance without sending your code to external servers? Continue with Ollama provides the perfect solution - a powerful AI coding assistant that runs entirely on your local machine. In this post, I'll walk you through setting up this privacy-focused development environment.
+
+## What is Continue?
+
+Continue is an open-source AI coding assistant that integrates seamlessly with VS Code. Unlike cloud-based solutions, Continue can work with local language models, giving you:
+
+- **Complete privacy** - Your code never leaves your machine
+- **No internet dependency** - Work offline without interruption
+- **Cost control** - No API fees or usage limits
+- **Customization** - Fine-tune models for your specific needs
+
+## What is Ollama?
+
+Ollama is a lightweight, extensible framework for building and running language models locally. It makes it incredibly easy to:
+
+- Download and run popular models like Mistral, Llama, and CodeLlama
+- Switch between different models instantly
+- Manage model versions and configurations
+- Serve models via a simple API
+
+## Setting Up Your Local AI Development Environment
+
+### Step 1: Install Ollama
+
+First, download and install Ollama from [ollama.ai](https://ollama.ai). Once installed, you can pull the models you need:
+
+```bash
+# Install coding-focused models
+ollama pull mistral:7b
+ollama pull qwen2.5-coder:1.5b-base
+ollama pull nomic-embed-text:latest
+```
+
+### Step 2: Install Continue Extension
+
+In VS Code:
+1. Open the Extensions panel (Ctrl+Shift+X)
+2. Search for "Continue"
+3. Install the Continue extension
+
+### Step 3: Configure Continue
+
+Create or edit your Continue configuration file (`.continue/config.yaml`):
+
+```yaml
+name: "Local AI Assistant"
+version: 1.0.0
+schema: v1
+
+models:
+  - name: "Mistral 7B (Chat)"
+    provider: ollama
+    model: mistral:7b
+    roles:
+      - chat
+      - edit
+      - apply
+
+  - name: "Qwen Coder (Autocomplete)"
+    provider: ollama
+    model: qwen2.5-coder:1.5b-base
+    roles:
+      - autocomplete
+
+  - name: "Nomic Embed (Search)"
+    provider: ollama
+    model: nomic-embed-text:latest
+    roles:
+      - embed
+
+context:
+  - provider: code
+  - provider: docs
+  - provider: diff
+  - provider: terminal
+  - provider: problems
+  - provider: folder
+    depth: 3
+  - provider: codebase
+```
+
+## Using Your Local AI Assistant
+
+### Chat Interface
+Open the Continue sidebar and start chatting with your AI assistant. You can ask questions like:
+- "Explain this code"
+- "How can I optimize this function?"
+- "Write unit tests for this class"
+
+### Code Completion
+As you type, Continue will provide intelligent autocomplete suggestions powered by your local Qwen model.
+
+### Code Editing
+Highlight code and ask Continue to:
+- Refactor functions
+- Add error handling
+- Optimize performance
+- Generate documentation
+
+## Benefits of This Setup
+
+### Privacy First
+Your sensitive code and proprietary algorithms never leave your development machine. This is crucial for:
+- Enterprise development
+- Personal projects with sensitive data
+- Compliance with strict data policies
+
+### Performance
+Local models provide:
+- Near-instant responses
+- No network latency
+- Consistent availability
+
+### Cost Effective
+After the initial setup, there are no ongoing costs:
+- No API fees
+- No usage limits
+- No subscription required
+
+## Tips for Success
+
+### Model Selection
+- **Mistral 7B**: Great balance of capability and speed for general coding tasks
+- **Qwen2.5-Coder**: Optimized for code completion and programming tasks
+- **Nomic Embed**: Excellent for semantic search across your codebase
+
+### Hardware Considerations
+- **RAM**: 16GB+ recommended for running multiple models
+- **GPU**: Optional but significantly improves performance
+- **Storage**: Models typically range from 1-8GB each
+
+### Customization
+Continue allows extensive customization:
+- Custom system prompts
+- Project-specific configurations
+- Custom commands and shortcuts
+
+## Conclusion
+
+Setting up Continue with Ollama creates a powerful, private, and cost-effective AI development environment. You get the benefits of modern AI coding assistance while maintaining complete control over your code and data.
+
+The combination of Continue's intuitive interface and Ollama's efficient model serving creates a seamless development experience that rivals any cloud-based solution.
+
+## Next Steps
+
+Now that you have your local AI assistant set up, try:
+1. Experimenting with different models for various tasks
+2. Creating custom commands for your workflow
+3. Exploring Continue's advanced features like codebase search
+4. Fine-tuning models for your specific domain
+
+Happy coding with your new AI-powered development environment!
+
+---
+
+*Have questions about setting up Continue with Ollama? Feel free to reach out or leave a comment below!*

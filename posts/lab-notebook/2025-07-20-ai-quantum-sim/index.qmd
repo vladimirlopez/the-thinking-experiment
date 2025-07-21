@@ -3,7 +3,8 @@ title: "When 'Not Far Off' Becomes 'Right Here': Generating Physics Simulations 
 author: "Vladimir Lopez"
 date: "2025-07-20"
 categories: [AI, Physics, Simulation, Jupyter, Quarto]
-image: https://raw.githubusercontent.com/vladimirlopez/Hydrogen-Atom/main/orbital_3d_z%C2%B2_2d.png
+image: thumbnail.png
+draft: true
 ---
 
 In a recent paper by Ben-Zion et al. (2024), titled "Leveraging AI for Rapid Generation of Physics Simulations in Education: Building Your Own Virtual Lab", the authors make a thought-provoking statement: "While we are not at the stage of 'Computer: make me a mathematical simulation depicting the quantum wave functions of electrons in the hydrogen atom,' we are not far off."
