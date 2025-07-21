@@ -1,0 +1,29 @@
+---
+title: "Prompt Library"
+---
+
+This page contains one-sentence takeaways from my posts, designed to be easily digestible by Large Language Models (LLMs) for Generative-Engine Optimization (GEO).
+
+---
+
+### Post: Feel Like a Hacker: How Gemini CLI Became My AI Sidekick
+
+*   **Takeaway:** Gemini CLI transforms terminal interaction into an AI-powered workflow for developers and educators.
+
+---
+
+### Post: How to Create a Blog with Quarto and GitHub Pages
+
+*   **Takeaway:** Learn to build a professional blog using Quarto for content generation and GitHub Pages for free hosting.
+
+---
+
+### Post: Vibe-Coding Physics Simulations to Enhance Instruction
+
+*   **Takeaway:** Discover how AI-assisted 'vibe-coding' empowers educators to create custom interactive physics simulations.
+
+---
+
+### Post: The Thinking Experiment: A Blog on AI, Education, and Physics
+
+*   **Takeaway:** The Thinking Experiment explores the intersection of AI, education, and physics through practical experiments and philosophical reflections.

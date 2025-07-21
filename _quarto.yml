@@ -14,6 +14,10 @@ website:
         href: index.qmd
       - text: "About"
         href: about.qmd
+      - text: "Lab Notebook"
+        href: lab-notebook.qmd
+      - text: "Prompt Library"
+        href: prompt-library.qmd
       - text: "Topics"
         menu:
           - text: "Physics"
@@ -24,8 +28,8 @@ website:
             href: "#"
       - icon: github
         href: https://github.com/vladimirlopez/the-thinking-experiment
-      - icon: twitter
-        href: https://twitter.com
+      - icon: linkedin
+        href: https://www.linkedin.com/in/vladimirglopez
 
 format:
   html:
