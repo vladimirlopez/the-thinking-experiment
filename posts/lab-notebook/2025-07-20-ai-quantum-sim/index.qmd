@@ -1,10 +1,10 @@
 ---
 title: "When 'Not Far Off' Becomes 'Right Here': Generating Physics Simulations with AI"
 author: "Vladimir Lopez"
-date: "2025-07-20"
-categories: [AI, Physics, Simulation, Jupyter, Quarto]
-image: thumbnail.png
-draft: true
+date: "2025-08-03"
+categories: [AI, Physics, Simulation, Jupyter, Quarto, Lab Notebook]
+image: orbital_1s_3d.png
+draft: false
 ---
 
 In a recent paper by Ben-Zion et al. (2024), titled "Leveraging AI for Rapid Generation of Physics Simulations in Education: Building Your Own Virtual Lab", the authors make a thought-provoking statement: "While we are not at the stage of 'Computer: make me a mathematical simulation depicting the quantum wave functions of electrons in the hydrogen atom,' we are not far off."
@@ -17,17 +17,17 @@ Before diving into the interactive simulation, let's look at some of the visuali
 
 ### Radial Probability Distributions
 
-![Radial Probability Distributions](https://raw.githubusercontent.com/vladimirlopez/Hydrogen-Atom/main/radial_probability_comparison.png){fig-alt="Comparison of radial probability distributions for different hydrogen atom orbitals."}
+![Radial Probability Distributions](radial_probability_comparison.png){fig-alt="Comparison of radial probability distributions for different hydrogen atom orbitals."}
 
 ### 3D Orbital Shapes
 
-![1s Orbital 3D](https://raw.githubusercontent.com/vladimirlopez/Hydrogen-Atom/main/orbital_1s_3d.png){fig-alt="3D visualization of the 1s hydrogen atom orbital."}
+![1s Orbital 3D](orbital_1s_3d.png){fig-alt="3D visualization of the 1s hydrogen atom orbital."}
 
-![2pz Orbital 3D](https://raw.githubusercontent.com/vladimirlopez/Hydrogen-Atom/main/orbital_2p_z_3d.png){fig-alt="3D visualization of the 2pz hydrogen atom orbital."}
+![2pz Orbital 3D](orbital_2p_z_3d.png){fig-alt="3D visualization of the 2pz hydrogen atom orbital."}
 
 ### 2D Cross-Sections
 
-![1s Orbital 2D Cross-Section](https://raw.githubusercontent.com/vladimirlopez/Hydrogen-Atom/main/orbital_1s_2d.png){fig-alt="2D cross-section visualization of the 1s hydrogen atom orbital."}
+![1s Orbital 2D Cross-Section](orbital_1s_2d.png){fig-alt="2D cross-section visualization of the 1s hydrogen atom orbital."}
 
 
 Below, you can view the rendered notebook on nbviewer.jupyter.org or access the raw notebook file on GitHub:

@@ -2,7 +2,7 @@
 title: "Prompt Library"
 ---
 
-This page contains one-sentence takeaways from my posts, designed to be easily digestible by Large Language Models (LLMs) for Generative-Engine Optimization (GEO).
+This page contains one-sentence summaries of my posts. These summaries are designed to help AI assistants and search engines quickly understand the key ideas of each article, making it easier for them to share and recommend my work.
 
 ---
 

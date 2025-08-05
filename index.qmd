@@ -1,19 +1,41 @@
 ---
 title: ""
-listing:
-  contents: posts
-  sort: "date desc"
-  type: grid
-  categories: true
-  sort-ui: false
-  filter-ui: false
-  fields: [image, title, description, date, categories]
 page-layout: full
 title-block-banner: false
+listing:
+  - id: featured-posts
+    contents:
+      - "posts/**/*.qmd"
+      - "!posts/lab-notebook/**"
+    sort: "date desc"
+    type: grid
+    categories: true
+    sort-ui: false
+    filter-ui: false
+    fields: [image, title, description, date, categories]
+  - id: lab-notebook-posts
+    contents: "posts/lab-notebook/**/*.qmd"
+    sort: "date desc"
+    type: grid
+    categories: true
+    sort-ui: false
+    filter-ui: false
+    fields: [image, title, description, date, categories]
+    max-items: 5
 ---
 
 <div class="hero-banner">
   <img src="assets/tte-hero-banner.png" alt="The Thinking Experiment" class="hero-image">
 </div>
 
+## Featured Posts
 
+::: {#featured-posts}
+:::
+
+<hr>
+
+## Latest from the Lab Notebook
+
+::: {#lab-notebook-posts}
+:::
