@@ -256,6 +256,16 @@ iframe {
     }
 }
 
+// About photo responsiveness
+.about-photo {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100%;
+  margin: 0 auto 1rem auto;
+  border-radius: 6px;
+}
+
 // Main content layout improvements
 #quarto-content {
     max-width: 1400px;
@@ -390,4 +400,10 @@ iframe {
 .LI-profile-badge iframe {
     border: none !important;
     margin: 0 !important;
+}
+
+/* Force about image to center */
+.content img[src*="IMG_3088"] {
+  display: block !important;
+  margin: 0 auto !important;
 }

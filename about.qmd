@@ -6,10 +6,10 @@ format:
 ---
 
 <picture>
-  <img src="IMG_3088-1200w.jpg" alt="Vladimir G. López at CERN" width="1200" height="900" loading="lazy" class="about-photo">
+  <img src="IMG_3088-1200w.jpg" alt="Vladimir G. Lopez at CERN" width="1200" height="900" loading="lazy" class="about-photo">
 </picture>
 
-I'm **Vladimir G. López**, originally from Asturias, Spain, and now based in Houston, Texas. I'm a bilingual STEM educator with a Master's degree in Physics and extensive experience teaching high school Math, Science, and Engineering.
+I'm **Vladimir G. Lopez**, originally from Asturias, Spain, and now based in Houston, Texas. I'm a bilingual STEM educator with a Master's degree in Physics and extensive experience teaching high school Math, Science, and Engineering.
 
 My career began in the Houston Independent School District, where I taught at Madison High School and East Early College High School. I was honored as the **KBR Science Teacher of the Year (2014)** and **[HISD Secondary Teacher of the Year (2015)](https://www.chron.com/neighborhood/bellaire/news/article/HISD-Secondary-Teacher-of-Year-Lopez-says-9708710.php)**. I've also served as an Adjunct Physics Professor at Houston Community College.
 
@@ -19,7 +19,7 @@ I'm a firm believer in **learning by doing**, so I design hands-on physics lesso
 
 ---
 
-### 👓 A bit about me personally
+### A bit about me personally
 
 - I love reading—and I read everything from philosophy to science to fiction.
 - My go-to tunes? Jazz, blues, and classic rock.
@@ -27,7 +27,7 @@ I'm a firm believer in **learning by doing**, so I design hands-on physics lesso
 
 ---
 
-### ⚗️ What this blog is
+### What this blog is
 
 **The Thinking Experiment** is where I share:
 - My experiments using AI in teaching and learning.
