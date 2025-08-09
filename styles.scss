@@ -238,26 +238,23 @@ iframe {
     .hero-image {
         display: block;
         width: 100%;
-        height: auto;
-        max-height: 420px;
+        height: 400px;
+        object-fit: cover;
         border-radius: 0;
         box-shadow: 0 12px 48px rgba(0, 0, 0, 0.4);
     }
 
     @media (max-width: 768px) {
-        .hero-image { max-height: 260px; }
+        .hero-image { height: 260px; }
     }
 }
 
 // Ensure heading anchor styles don't tint titles
-.anchored {
-  a,
-  a:link,
-  a:visited {
-    color: $body-color !important;
-    text-decoration: none;
-  }
-}
+// Heading colors (override theme link tinting)
+h1.title { color: $body-color !important; }
+h1, h2, h3, h4, h5, h6 { color: $body-color; }
+h2.anchored, h3.anchored, h4.anchored { color: $body-color !important; }
+h2.anchored a, h3.anchored a, h4.anchored a { color: $body-color !important; text-decoration: none; }
 
 // About photo responsiveness
 .about-photo {
