@@ -1,0 +1,27 @@
+---
+title: "Topics"
+description: "Browse posts grouped by category"
+---
+
+## Browse by Category
+
+Listing of all posts grouped by category.
+
+::: {.callout-tip}
+You can also filter categories from the sidebar on the home page.
+:::
+
+```{=html}
+<style>
+.quarto-listing-category-title { margin-top: 2rem; }
+</style>
+```
+
+listing:
+  contents: "posts/**/*.qmd"
+  type: default
+  sort: "date desc"
+  group-by: category
+  categories: true
+  fields: [image, title, description, date, categories]
+

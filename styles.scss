@@ -1,7 +1,6 @@
 /*-- scss:defaults --*/
 
-// Import Inter font from Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+// Inter font is loaded via <link> tags in _quarto.yml include-in-header
 
 // Bootstrap variable overrides
 $font-family-sans-serif: "Inter", "Helvetica Neue", Arial, sans-serif !default;

@@ -1,5 +1,5 @@
-/.quarto/
-/_site/
-.DS_Storebadge2.png
-Screenshot 2025-07-20 at 4.52.04\342\200\257PM.png
-.DS_Store
+_site/
+.quarto/
+.venv/
+**/.DS_Store
+*.log

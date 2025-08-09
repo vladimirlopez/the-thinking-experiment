@@ -6,6 +6,7 @@ description: "Discovering the power of command-line AI tools. How Gemini CLI tra
 categories: [AI, CLI, Gemini, Tech]
 image: "thumbnail.png"
 draft: false
+canonical-url: https://vladimirlopez.github.io/the-thinking-experiment/posts/gemini-cli/
 open-graph:
   title: "Feel Like a Hacker: How Gemini CLI Became My AI Sidekick"
   description: "Discovering the power of command-line AI tools. How Gemini CLI transformed my workflow from GUI clicking to terminal-based productivity."

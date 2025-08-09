@@ -5,6 +5,9 @@ project:
 website:
   title: "The Thinking Experiment"
   site-url: https://vladimirlopez.github.io/the-thinking-experiment
+  description: "AI, education, and physics—experiments, notes, and tools."
+  image: assets/tte-logo.png
+  feed: true
   google-analytics: "G-JBQ9ZQLYSX"
   favicon: assets/favicon.png
   navbar:
@@ -19,13 +22,7 @@ website:
       - text: "Prompt Library"
         href: prompt-library.qmd
       - text: "Topics"
-        menu:
-          - text: "Physics"
-            href: "#"
-          - text: "AI in Teaching" 
-            href: "#"
-          - text: "Coding Workflows"
-            href: "#"
+        href: topics.qmd
       - icon: github
         href: https://github.com/vladimirlopez/the-thinking-experiment
       - icon: linkedin
@@ -39,15 +36,34 @@ format:
     toc: true
     toc-location: right
     reading-time: true
+    math: none
     include-in-header:
       - text: |
           <meta property="og:site_name" content="The Thinking Experiment">
           <meta property="og:type" content="website">
           <meta name="twitter:card" content="summary_large_image">
           <meta name="twitter:creator" content="@vladimirlopez">
-    include-after-body: _includes/comments.html
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+      - text: |
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "The Thinking Experiment",
+            "url": "https://vladimirlopez.github.io/the-thinking-experiment",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://vladimirlopez.github.io/the-thinking-experiment/search.html?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          }
+          </script>
+    # Comments now scoped to posts via posts/_metadata.yml
+    # include-after-body removed here to avoid site-wide load
     open-graph: true
     twitter-card: true
-
 
 

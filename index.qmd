@@ -1,5 +1,8 @@
 ---
-title: ""
+title: "The Thinking Experiment — AI, Education, Physics"
+description: "A blog exploring AI in teaching, physics pedagogy, and coding workflows."
+image: assets/tte-logo.png
+canonical-url: https://vladimirlopez.github.io/the-thinking-experiment/
 page-layout: full
 title-block-banner: false
 listing:
@@ -25,7 +28,7 @@ listing:
 ---
 
 <div class="hero-banner">
-  <img src="assets/tte-hero-banner.png" alt="The Thinking Experiment" class="hero-image">
+  <img src="assets/tte-hero-banner.png" alt="The Thinking Experiment" class="hero-image" width="1600" height="400" loading="eager">
 </div>
 
 ## Featured Posts
@@ -39,3 +42,13 @@ listing:
 
 ::: {#lab-notebook-posts}
 :::
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.quarto-grid-item.card img').forEach(function(img) {
+      if (!img.hasAttribute('loading')) {
+        img.setAttribute('loading', 'lazy');
+      }
+    });
+  });
+  </script>
