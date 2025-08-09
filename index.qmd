@@ -16,6 +16,7 @@ listing:
     sort-ui: false
     filter-ui: false
     fields: [image, title, description, date, categories]
+    feed: true
   - id: lab-notebook-posts
     contents: "posts/lab-notebook/**/*.qmd"
     sort: "date desc"
