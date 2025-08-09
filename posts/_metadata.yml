@@ -10,3 +10,5 @@ title-block-banner: true
 # Load comments only on posts
 include-after-body:
   - _includes/comments.html
+include-in-header:
+  - _includes/post-schema.html
