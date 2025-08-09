@@ -34,6 +34,8 @@ format:
     theme: 
       - darkly
       - styles.scss
+    css:
+      - styles.scss
     toc: true
     toc-location: right
     reading-time: true
