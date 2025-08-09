@@ -1,6 +1,7 @@
 /*-- scss:defaults --*/
 
-// Inter font is loaded via <link> tags in _quarto.yml include-in-header
+// Import Inter font from Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 // Bootstrap variable overrides
 $font-family-sans-serif: "Inter", "Helvetica Neue", Arial, sans-serif !default;
@@ -107,7 +108,7 @@ $border-color: #495057 !default;
 
 // Post content styling
 .quarto-title-banner {
-    /* Allow Quarto's background-image banner to show */
+    background: linear-gradient(135deg, darken(#212529, 5%), #212529);
     border-bottom: 1px solid $border-color;
 }
 
@@ -233,44 +234,26 @@ iframe {
 
 // Hero Banner Styling
 .hero-banner {
-    margin: 1rem 0 1.5rem 0;
-
+    margin-bottom: 2rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    
     .hero-image {
-        display: block;
         width: 100%;
         height: 400px;
         object-fit: cover;
         border-radius: 0;
         box-shadow: 0 12px 48px rgba(0, 0, 0, 0.4);
     }
-
+    
     @media (max-width: 768px) {
-        .hero-image { height: 260px; }
+        margin-left: -1rem;
+        margin-right: -1rem;
+        
+        .hero-image {
+            height: 250px;
+        }
     }
-}
-
-// Ensure heading anchor styles don't tint titles
-// Heading colors (override theme link tinting)
-/* Title block heading */
-.quarto-title-block .quarto-title .title,
-.quarto-title-banner .quarto-title .title,
-h1.title {
-  color: $body-color !important;
-}
-
-/* Section headings */
-h1, h2, h3, h4, h5, h6 { color: $body-color !important; }
-h2.anchored, h3.anchored, h4.anchored { color: $body-color !important; }
-h2.anchored a, h3.anchored a, h4.anchored a { color: $body-color !important; text-decoration: none !important; }
-
-// About photo responsiveness
-.about-photo {
-  display: block;
-  width: 100% !important;
-  height: auto !important;
-  max-width: 100%;
-  margin: 0 auto 1rem auto;
-  border-radius: 6px;
 }
 
 // Main content layout improvements
