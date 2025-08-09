@@ -11,9 +11,9 @@ title-block-banner: true
 format:
   html:
     include-in-header:
-      - _includes/post-schema.html
+      - ../_includes/post-schema.html
     include-after-body:
-      - _includes/analytics-extra.html
-      - _includes/newsletter.html
-      - _includes/share.html
-      - _includes/comments.html
+      - ../_includes/analytics-extra.html
+      - ../_includes/newsletter.html
+      - ../_includes/share.html
+      - ../_includes/comments.html
