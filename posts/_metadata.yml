@@ -7,11 +7,7 @@ freeze: true
 # Enable banner style title blocks
 title-block-banner: true
 
-# Load comments only on posts
-include-after-body:
-  - _includes/newsletter.html
-  - _includes/share.html
-  - _includes/comments.html
+# Load comments only on posts and add analytics/share/newsletter
 include-in-header:
   - _includes/post-schema.html
 include-after-body:
