@@ -22,6 +22,8 @@ website:
         href: prompt-library.qmd
       - text: "Topics"
         href: topics.qmd
+      - text: "RSS"
+        href: index.xml
       - icon: github
         href: https://github.com/vladimirlopez/the-thinking-experiment
       - icon: linkedin
@@ -90,5 +92,5 @@ format:
     open-graph: true
     twitter-card: true
 
-# Global metadata (available to {{< meta >}})
-buttondown_handle: "vladimirglopez"
+metadata:
+  buttondown_handle: "vladimirglopez"

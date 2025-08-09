@@ -7,13 +7,19 @@
     <button type="submit" style="padding:0.4rem 0.8rem; border:1px solid #00BCD4; background:transparent; color:#00BCD4; border-radius:4px;">Subscribe</button>
   </form>
   <div style="margin-top:0.5rem; font-size:0.9em; opacity:0.85;">
-    Or subscribe via <a href="/the-thinking-experiment/index.xml" target="_blank" rel="noopener">RSS</a> or follow on <a href="https://www.linkedin.com/in/vladimirglopez" target="_blank" rel="noopener">LinkedIn</a>.
+    Or subscribe via <a id="rss-link" href="index.xml" target="_blank" rel="noopener">RSS</a> or follow on <a href="https://www.linkedin.com/in/vladimirglopez" target="_blank" rel="noopener">LinkedIn</a>.
   </div>
   <script>
     // Hide Buttondown form if handle not set (renders empty); keep RSS fallback
     (function(){
       var h = "{{< meta buttondown_handle >}}".trim();
       if (!h) { var f = document.getElementById('bd-form'); if (f) f.style.display = 'none'; }
+      // Fix RSS link for local vs. GitHub Pages base path
+      var rss = document.getElementById('rss-link');
+      if (rss) {
+        var base = window.location.pathname.startsWith('/the-thinking-experiment') ? '/the-thinking-experiment/' : '/';
+        rss.href = base + 'index.xml';
+      }
     })();
   </script>
 </div>
