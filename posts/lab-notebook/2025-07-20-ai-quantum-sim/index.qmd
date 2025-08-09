@@ -33,9 +33,9 @@ Before diving into the interactive simulation, let's look at some of the visuali
 
 Below, you can view the rendered notebook on nbviewer.jupyter.org or access the raw notebook file on GitHub:
 
-[View Notebook on nbviewer.jupyter.org](https://nbviewer.jupyter.org/github/vladimirlopez/Hydrogen-Atom/blob/main/hydrogen_atom_simulation.ipynb)
+<a href="https://nbviewer.jupyter.org/github/vladimirlopez/Hydrogen-Atom/blob/main/python-simulation/hydrogen_atom_simulation.ipynb">View Notebook on nbviewer.jupyter.org</a>
 
-[Download Raw Notebook (.ipynb)](https://raw.githubusercontent.com/vladimirlopez/Hydrogen-Atom/main/hydrogen_atom_simulation.ipynb)
+<a href="https://raw.githubusercontent.com/vladimirlopez/Hydrogen-Atom/main/python-simulation/hydrogen_atom_simulation.ipynb">Download Raw Notebook (.ipynb)</a>
 
 You can find the full code and more details in the GitHub repository: [https://github.com/vladimirlopez/Hydrogen-Atom](https://github.com/vladimirlopez/Hydrogen-Atom)
 
