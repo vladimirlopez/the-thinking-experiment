@@ -107,7 +107,7 @@ $border-color: #495057 !default;
 
 // Post content styling
 .quarto-title-banner {
-    background: linear-gradient(135deg, darken(#212529, 5%), #212529);
+    /* Allow Quarto's background-image banner to show */
     border-bottom: 1px solid $border-color;
 }
 
