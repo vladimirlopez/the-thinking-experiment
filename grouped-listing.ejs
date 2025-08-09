@@ -1,0 +1,26 @@
+<% 
+// Group items by category
+const groupedItems = items.reduce((acc, item) => {
+  if (item.categories) {
+    item.categories.forEach(category => {
+      const lowerCaseCategory = category.toLowerCase();
+      if (!acc[lowerCaseCategory]) {
+        acc[lowerCaseCategory] = [];
+      }
+      acc[lowerCaseCategory].push(item);
+    });
+  }
+  return acc;
+}, {});
+%>
+
+<% for (const category in groupedItems) { %>
+  <h2><%= category %></h2>
+  <ul>
+    <% for (const item of groupedItems[category]) { %>
+      <li>
+        <a href="<%- item.path %>"><%= item.title %></a>
+      </li>
+    <% } %>
+  </ul>
+<% } %>

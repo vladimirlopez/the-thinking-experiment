@@ -1,6 +1,12 @@
 ---
 title: "Topics"
 description: "Browse posts grouped by category"
+listing:
+  contents: "posts/**/*.qmd"
+  type: default
+  sort: "date desc"
+  template: grouped-listing.ejs
+  fields: [image, title, description, date, categories]
 ---
 
 ## Browse by Category
@@ -16,12 +22,4 @@ You can also filter categories from the sidebar on the home page.
 .quarto-listing-category-title { margin-top: 2rem; }
 </style>
 ```
-
-listing:
-  contents: "posts/**/*.qmd"
-  type: default
-  sort: "date desc"
-  group-by: category
-  categories: true
-  fields: [image, title, description, date, categories]
 
