@@ -7,7 +7,7 @@ website:
   site-url: https://vladimirlopez.github.io/the-thinking-experiment
   description: "AI, education, and physics—experiments, notes, and tools."
   image: assets/social-default-1200w.jpg
-  buttondown_handle: "" # set to your Buttondown username to enable email signup
+  buttondown_handle: "vladimirglopez" # set to your Buttondown username to enable email signup
   feed: true
   google-analytics: "G-JBQ9ZQLYSX"
   favicon: assets/favicon.png
