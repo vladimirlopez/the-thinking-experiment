@@ -1,0 +1,33 @@
+<script>
+// Scroll depth tracking at 25/50/75/100
+(function(){
+  var marks = [25,50,75,100], fired = {};
+  function onScroll(){
+    var doc = document.documentElement;
+    var pos = (doc.scrollTop + doc.clientHeight) / doc.scrollHeight * 100;
+    marks.forEach(function(m){
+      if (!fired[m] && pos >= m && typeof gtag === 'function') {
+        gtag('event','scroll_depth',{event_category:'engagement',event_label:m+'%'});
+        fired[m] = true;
+      }
+    });
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+})();
+
+// Iframe view tracking (25% visible)
+(function(){
+  if (!('IntersectionObserver' in window)) return;
+  var obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if (e.isIntersecting && e.intersectionRatio >= 0.25 && typeof gtag === 'function'){
+        var src = (e.target.getAttribute('src')||'').split('?')[0];
+        gtag('event','iframe_view',{event_category:'engagement',event_label:src});
+        obs.unobserve(e.target);
+      }
+    });
+  }, {threshold:[0.25]});
+  document.querySelectorAll('iframe[src]').forEach(function(ifr){ obs.observe(ifr); });
+})();
+</script>
+

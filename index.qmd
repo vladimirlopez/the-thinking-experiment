@@ -28,7 +28,10 @@ listing:
 ---
 
 <div class="hero-banner">
-  <img src="assets/tte-hero-banner-1600w.jpg" alt="The Thinking Experiment" class="hero-image" width="1600" height="400" loading="eager">
+  <picture>
+    <source srcset="assets/tte-hero-banner-1600w.webp" type="image/webp">
+    <img src="assets/tte-hero-banner-1600w.jpg" alt="The Thinking Experiment" class="hero-image" width="1600" height="400" loading="eager">
+  </picture>
 </div>
 
 ## Featured Posts

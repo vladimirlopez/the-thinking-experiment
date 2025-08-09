@@ -5,6 +5,7 @@ date: "2025-07-27"
 description: "Exploring why electromagnetism is tough for high school students (complex math, abstract visuals, hand rules) and how AI might offer solutions."
 categories: [Physics, Education, AI, Lab Notebook]
 image: electromagnetism-visual.png
+canonical-url: https://vladimirlopez.github.io/the-thinking-experiment/posts/lab-notebook/2025-07-20-electromagnetism-challenge/
 ---
 
 Electromagnetism. Just the word can elicit groans from high school physics students. As an educator, it’s one of those topics that consistently presents a unique set of pedagogical challenges. It’s not just about memorizing formulas; it’s about visualizing the invisible, understanding abstract forces, and navigating a maze of rules.

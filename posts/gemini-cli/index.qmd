@@ -4,7 +4,7 @@ author: "Vladimir Lopez"
 date: "2025-07-20"
 description: "Discovering the power of command-line AI tools. How Gemini CLI transformed my workflow from GUI clicking to terminal-based productivity."
 categories: [AI, CLI, Gemini, Tech]
-image: "thumbnail-600w.jpg"
+image: "thumbnail-600w.webp"
 draft: false
 canonical-url: https://vladimirlopez.github.io/the-thinking-experiment/posts/gemini-cli/
 open-graph:

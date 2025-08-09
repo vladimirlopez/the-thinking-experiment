@@ -9,6 +9,13 @@ title-block-banner: true
 
 # Load comments only on posts
 include-after-body:
+  - _includes/newsletter.html
+  - _includes/share.html
   - _includes/comments.html
 include-in-header:
   - _includes/post-schema.html
+include-after-body:
+  - _includes/analytics-extra.html
+  - _includes/newsletter.html
+  - _includes/share.html
+  - _includes/comments.html

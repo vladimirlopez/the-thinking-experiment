@@ -3,7 +3,7 @@ title: "When 'Not Far Off' Becomes 'Right Here': Generating Physics Simulations 
 author: "Vladimir Lopez"
 date: "2025-08-03"
 categories: [AI, Physics, Simulation, Jupyter, Quarto, Lab Notebook]
-image: thumbnail-600w.jpg
+image: thumbnail-600w.webp
 draft: false
 canonical-url: https://vladimirlopez.github.io/the-thinking-experiment/posts/lab-notebook/2025-07-20-ai-quantum-sim/
 ---

@@ -1,0 +1,19 @@
+<div class="post-share" style="margin-top:1.5rem; padding-top:1rem; border-top:1px solid var(--bs-border-color, #495057);">
+  <strong>Share:</strong>
+  <a id="share-twitter" href="#" rel="noopener" target="_blank">Twitter</a>
+  ·
+  <a id="share-linkedin" href="#" rel="noopener" target="_blank">LinkedIn</a>
+  ·
+  <a id="share-copy" href="#" onclick="navigator.clipboard.writeText(window.location.href); return false;">Copy Link</a>
+</div>
+<script>
+  (function(){
+    var url = encodeURIComponent(window.location.href);
+    var title = encodeURIComponent(document.title);
+    var tw = document.getElementById('share-twitter');
+    var li = document.getElementById('share-linkedin');
+    if (tw) tw.href = 'https://twitter.com/intent/tweet?url=' + url + '&text=' + title;
+    if (li) li.href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + url;
+  })();
+</script>
+

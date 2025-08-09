@@ -6,6 +6,7 @@ description: "The story behind creating this blog with Quarto and GitHub Pages. 
 categories: [blogging, quarto, github, meta, setup, tutorial]
 image: ../../assets/tte-logo.png
 draft: false
+canonical-url: https://vladimirlopez.github.io/the-thinking-experiment/posts/how-to-create-blog/
 open-graph:
   title: "How Do I Create a Blog? (The Meta First Post)"
   description: "The story behind creating this blog with Quarto and GitHub Pages. A step-by-step journey from idea to implementation."

@@ -5,7 +5,9 @@ format:
     toc: false
 ---
 
-![Vladimir G. López at CERN](IMG_3088.jpg)
+<picture>
+  <img src="IMG_3088-1200w.jpg" alt="Vladimir G. López at CERN" width="1200" height="900" loading="lazy">
+</picture>
 
 I'm **Vladimir G. López**, originally from Asturias, Spain, and now based in Houston, Texas. I'm a bilingual STEM educator with a Master's degree in Physics and extensive experience teaching high school Math, Science, and Engineering.
 
