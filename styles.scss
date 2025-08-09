@@ -233,7 +233,7 @@ iframe {
 
 // Hero Banner Styling
 .hero-banner {
-    margin: 0 0 1.5rem 0;
+    margin: 1rem 0 1.5rem 0;
 
     .hero-image {
         display: block;
@@ -251,10 +251,17 @@ iframe {
 
 // Ensure heading anchor styles don't tint titles
 // Heading colors (override theme link tinting)
-h1.title { color: $body-color !important; }
-h1, h2, h3, h4, h5, h6 { color: $body-color; }
+/* Title block heading */
+.quarto-title-block .quarto-title .title,
+.quarto-title-banner .quarto-title .title,
+h1.title {
+  color: $body-color !important;
+}
+
+/* Section headings */
+h1, h2, h3, h4, h5, h6 { color: $body-color !important; }
 h2.anchored, h3.anchored, h4.anchored { color: $body-color !important; }
-h2.anchored a, h3.anchored a, h4.anchored a { color: $body-color !important; text-decoration: none; }
+h2.anchored a, h3.anchored a, h4.anchored a { color: $body-color !important; text-decoration: none !important; }
 
 // About photo responsiveness
 .about-photo {
