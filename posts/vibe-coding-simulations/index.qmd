@@ -127,9 +127,9 @@ For teachers with even a little coding background, no matter how out-of-date, vi
 **1. Tangent Line Simulation**
 
 - Live site: [https://vladimirlopez.github.io/slope_tangents/](https://vladimirlopez.github.io/slope_tangents/)
-- Source code: [https://github.com/vladimirlopez/tangent-line-sim](https://github.com/vladimirlopez/tangent-line-sim)
+- Source code: [https://github.com/vladimirlopez/slope_tangents](https://github.com/vladimirlopez/slope_tangents)
 
 **2. Electrostatics: Conduction and Induction**
 
 - Live site: [https://vladimirlopez.github.io/chargingDemo/](https://vladimirlopez.github.io/chargingDemo/)
-- Source code: [https://github.com/vladimirlopez/electrostatics-sim](https://github.com/vladimirlopez/electrostatics-sim)
+- Source code: [https://github.com/vladimirlopez/chargingDemo](https://github.com/vladimirlopez/chargingDemo)
