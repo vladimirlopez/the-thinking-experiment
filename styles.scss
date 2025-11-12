@@ -12,8 +12,8 @@ $link-color: $primary !default;
 $link-hover-color: lighten($primary, 15%) !default;
 
 // Additional color variables
-$card-bg: #2c3035 !default;
-$border-color: #495057 !default;
+$card-bg: #383e45 !default;
+$border-color: #5f6770 !default;
 
 /*-- scss:rules --*/
 
@@ -108,7 +108,7 @@ $border-color: #495057 !default;
 
 // Post content styling
 .quarto-title-banner {
-    background: linear-gradient(135deg, darken(#212529, 5%), #212529);
+    background: linear-gradient(135deg, darken($body-bg, 5%), $body-bg);
     border-bottom: 1px solid $border-color;
 }
 
