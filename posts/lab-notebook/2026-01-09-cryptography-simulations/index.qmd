@@ -4,7 +4,7 @@ author: "Vladimir Lopez"
 date: "2026-01-09"
 description: "A quick update on the new hub for interactive cryptography simulations I've been developing for my Introduction to Cryptography course."
 categories: [Cryptography, Education, Simulation, Lab Notebook, High School]
-image: hero.png
+image: thumbnail.png
 canonical-url: https://vladimirlopez.github.io/the-thinking-experiment/posts/lab-notebook/2026-01-09-cryptography-simulations/
 ---
 
