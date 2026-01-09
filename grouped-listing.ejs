@@ -1,4 +1,14 @@
 <% 
+// Helper function to title case a string
+function toTitleCase(str) {
+  return str.replace(
+    /\w\S*/g,
+    function(txt) {
+      return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    }
+  );
+}
+
 // Group items by category
 const groupedItems = items.reduce((acc, item) => {
   if (item.categories) {
@@ -15,7 +25,7 @@ const groupedItems = items.reduce((acc, item) => {
 %>
 
 <% for (const category in groupedItems) { %>
-  <h2><%= category %></h2>
+  <h2><%= toTitleCase(category) %></h2>
   <ul>
     <% for (const item of groupedItems[category]) { %>
       <li>

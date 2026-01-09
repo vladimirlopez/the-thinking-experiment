@@ -1,1 +1,0 @@
-Set empty title for index.qmd to remove redundant display

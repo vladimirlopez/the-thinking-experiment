@@ -1,0 +1,27 @@
+---
+title: "Lab Note: Launching the Cryptography Simulations Hub"
+author: "Vladimir Lopez"
+date: "2026-01-09"
+description: "A quick update on the new hub for interactive cryptography simulations I've been developing for my Introduction to Cryptography course."
+categories: [Cryptography, Education, Simulation, Lab Notebook, High School]
+image: hero.png
+canonical-url: https://vladimirlopez.github.io/the-thinking-experiment/posts/lab-notebook/2026-01-09-cryptography-simulations/
+---
+
+I’m excited to share a new project I’ve been working on: the **Cryptography Simulations Hub**. 
+
+This collection of interactive tools was specifically designed for my **Introduction to Cryptography** course, which I'm teaching during the Interim Term for high school students. The goal is to move beyond static descriptions and let students "get their hands dirty" with the mechanics of historical and modern ciphers.
+
+The hub currently features simulations for:
+- **Caesar Wheel**: Visualizing shifts in the alphabet.
+- **Vigenère Cipher**: Understanding polyalphabetic substitution.
+- **Frequency Analysis**: Breaking substitution ciphers by analyzing letter patterns.
+- **Scytale**: A 3D simulation of the ancient Spartan transposition cipher.
+- **Quantum Cryptography (BB84)**: An interactive look at how quantum mechanics can secure communication.
+
+You can explore the hub here:  
+[**https://vladimirlopez.github.io/cryptography-simulations-hub/**](https://vladimirlopez.github.io/cryptography-simulations-hub/index.html)
+
+These simulations are built with Vite and designed to be both educational and engaging, aligning with the "Thinking Experiment" philosophy of making complex ideas accessible through interactive exploration.
+
+I'd love to hear how you use these in your own learning or teaching!
